@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "content-hash": "08d738cdabc6a2ce9ed1408c371b3eec",
+    "content-hash": "8cc50882de003ca7389e9e076610e207",
     "packages": [
         {
             "name": "barryvdh/laravel-debugbar",
@@ -586,6 +586,56 @@
                 }
             ],
             "time": "2015-04-20T18:58:01+00:00"
+        },
+        {
+            "name": "jeremykenedy/laravel-roles",
+            "version": "v1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/jeremykenedy/laravel-roles.git",
+                "reference": "17793eac0c6e29535dd2d2d478ac6980a6dd3f80"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/jeremykenedy/laravel-roles/zipball/17793eac0c6e29535dd2d2d478ac6980a6dd3f80",
+                "reference": "17793eac0c6e29535dd2d2d478ac6980a6dd3f80",
+                "shasum": ""
+            },
+            "require": {
+                "laravel/framework": "5.4.*",
+                "php": ">=5.6.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "jeremykenedy\\LaravelRoles\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Roman Bičan",
+                    "email": "romanbican@seznam.cz"
+                },
+                {
+                    "name": "Jeremy Kenedy",
+                    "email": "jeremykenedy@gmail.com"
+                },
+                {
+                    "name": "Ultraware"
+                }
+            ],
+            "description": "Powerful package for handling roles and permissions in Laravel 5.4+",
+            "keywords": [
+                "acl",
+                "levels",
+                "permissions",
+                "roles"
+            ],
+            "time": "2017-02-22T06:27:31+00:00"
         },
         {
             "name": "laravel/framework",
