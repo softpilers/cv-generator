@@ -241,6 +241,13 @@ return [
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
         'Debugbar' => Barryvdh\Debugbar\Facade::class,
+        'Form'      => \Collective\Html\FormFacade::class,
+        'HTML'      => \Collective\Html\HtmlFacade::class,
+        'Socialite' => Laravel\Socialite\Facades\Socialite::class,
+        'Input' => Illuminate\Support\Facades\Input::class,
+        'Gravatar' => Creativeorange\Gravatar\Facades\Gravatar::class,
+        'Image' => Intervention\Image\Facades\Image::class,
+        'Uuid' => Webpatser\Uuid\Uuid::class,
 
     ],
 
